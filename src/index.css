@@ -6,7 +6,12 @@
 @font-face {
   font-family: "Rajdhani";
   src: url(./assets/fonts/Rajdhani-Regular.ttf);
-  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
   font-display: swap;
 }
 
