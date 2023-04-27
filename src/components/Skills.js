@@ -2,27 +2,7 @@ import React from "react"
 import { BsArrowUpRight } from "react-icons/bs"
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
-
-const skills = [
-  {
-    name: "MySQL",
-    description:
-      "Nulla duis culpa dolore tempor laboris pariatur deserunt veniam Lorem occaecat consequat laboris. Anim cupidatat non sit nisi aliquip officia deserunt.",
-    link: "Learn more",
-  },
-  {
-    name: "Javascript",
-    description:
-      "Nulla duis culpa dolore tempor laboris pariatur deserunt veniam Lorem occaecat consequat laboris. Anim cupidatat non sit nisi aliquip officia deserunt.",
-    link: "Learn more",
-  },
-  {
-    name: "HTML/CSS",
-    description:
-      "Nulla duis culpa dolore tempor laboris pariatur deserunt veniam Lorem occaecat consequat laboris. Anim cupidatat non sit nisi aliquip officia deserunt.",
-    link: "Learn more",
-  },
-]
+import skills from "../skills.json"
 
 const Skills = () => {
   return (
